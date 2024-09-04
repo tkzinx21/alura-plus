@@ -1,8 +1,8 @@
 :root{
-    --cor-de-fundo: #141414;
     --branco-principal: #ffffff;
-    --azul:#167bf7;
-    --cinza: #c0c0c0;
+    --cor-de-fundo: #
+    --azul: #167bf7;
+    --cinza: 
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -23,3 +23,11 @@ body{
 .container{
     height: 100vh;
 }
+
+.container_botao{
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--branco-principal);
+    display: block
+}   
