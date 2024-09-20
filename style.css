@@ -22,12 +22,14 @@ body{
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .container_botao{
-    background-color: var(--azul);
+    background-color: var(--azul)
     border-radius: 5px;
     padding: lem;
     color: var(--branco-principal);
-    display: block
-}   
+    display: block;
+} 
